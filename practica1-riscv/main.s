@@ -1,6 +1,6 @@
 .data
 Matrix: .zero 36        # 3x3 * 4 bytes = 9 * 4 = 36 bytes reservados
-N:      .word 0        # tamaño de la matriz
+N:      .word 3        # tamaño de la matriz
 a_val:  .float 1.5     # a = 1.0
 b_val:  .float 0.5      # b = 2.0
 c_val:  .float 2.5      # c = 2.0
